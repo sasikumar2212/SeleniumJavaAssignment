@@ -95,3 +95,18 @@ public class TestCase1AbhiBus {
 	}
 
 }
+cities: { 
+"Amsterdam" => "Amsterdam’s intriguing history spans seven centuries. From humble beginnings as a small village to a world power in the 17th century, Amsterdam today is a fascinating mix of history and commerce.",
+
+ 
+
+"Shanghai" => "Shanghai, on China’s central coast, is the country's biggest city and a global financial hub.",
+
+ 
+
+"Seattle" => "Seattle is surrounded by water, mountains and evergreen forests, and contains thousands of acres of parkland.",
+
+ 
+
+"Singapore" => "Singapore, an island city-state off southern Malaysia, is a global financial center with a tropical climate and multicultural population."
+}
