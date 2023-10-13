@@ -74,6 +74,12 @@ for(Map.Entry m:map.entrySet())
 }
 System.out.println("Total Age : "+totalAge);
 
+7.Manual Sanity and Smoke testing
+sanity - functional test - used to ensure that the build is stable enough for further testing
+Smoke - regression - while sanity testing is used to verify that specific functionality or components are working as expected after making changes or fixing defects.
+8.Test plan and test Strategy 
+Test plan - document scope, objectives, key element of software testing
+test startegy - techniques and approch going to use software testing
 
 git stash and git rebase 
 
@@ -109,16 +115,14 @@ driver.manage().timeout.implicite(Duration.ofSeconds(30))
 
 Explicit :
 
-wait.until(driver.findElement(By.xpath()))
+wait.until(ExpectedCondition.visiblilityOfElementLocated(By.xpath()))
 
 
 
 
 Action ac = new Action();
-
-ac.movesDown("")
-
-ac.DragDwrop(sru,des)
+ac.movetoElement().perform();
+ac.DragandDwrop(sru,des).perfome();`
 
 
 
