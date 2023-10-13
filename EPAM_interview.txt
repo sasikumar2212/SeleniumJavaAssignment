@@ -1,4 +1,8 @@
- public class JavaHungry {
+1. What is Function Interface in java 8?
+Fuctional interface having altest one abstract class with multiple default and static methods
+
+2.What could be the output of the below code?
+public class JavaHungry {
     public static void main(String args[]) 
     {
         try 
@@ -20,13 +24,12 @@
        System.out.print("E");
 }
 }
-
+Answer:
 A
 C
-D
 E
 
-
+3.What could be the output of the below code?
 public class Myclass {
   private final static int x = 10;
    static {
@@ -37,17 +40,18 @@ public static void main(String[] args) {
     System.out.println(x);
    }
 }
+Answer: 
+Compile Error
 
-Exception 
+4.hashcode() - method HashMap
+Java Object hashCode() is a native method and returns the integer hash code value of the object.
 
-#
+5.what are all the different type of set in java?
+1.hashset - unorder - allow only one null
+2.linkedhashset - insertion order - allow only one null
+3.treeset - alpahpetic order - Not allow null
 
-Hash
-
-hashcode() - method HashMap
-
-
-Keeping the below person details in a Map (person name as key and age as value) and then calculate the average age of the persons:-
+6.Keeping the below person details in a Map (person name as key and age as value) and then calculate the average age of the persons:-
 
 Amit    24
 
@@ -55,17 +59,20 @@ Sumit   16
 
 Ram     18
 
+HashMap<String,Integer> map = new HashMap();
+map.put("Amit",24);
+map.put("Sumit",16);
+map.put("Ram",18);
 
-HashMap<String, Integer> map = new HashMap<String,Integer>()
-
-map.put(Amit, 24);
-map.put();
-map.put();
-int total =0;
-list<int> ages = map.en
-for(int age:){
-
+//Set<Map.Entry<String, Integer>> entries = map.entrySet();
+int totalAge = 0;
+for(Map.Entry m:map.entrySet())
+{
+    //System.out.println(m.getKey()+"--------"+m.getValue());
+    int value = (int) m.getValue();
+    totalAge = totalAge+value;
 }
+System.out.println("Total Age : "+totalAge);
 
 
 git stash and git rebase 
