@@ -1,0 +1,168 @@
+ public class JavaHungry {
+    public static void main(String args[]) 
+    {
+        try 
+        {
+            System.out.print("A");
+            int num = 99/0;
+            System.out.print("B");
+        }
+ 
+        catch(ArithmeticException ex) 
+        {
+            System.out.print("C");
+ 
+        }
+        catch(Exception ex)
+        {
+            System.out.print("D");
+        }
+       System.out.print("E");
+}
+}
+
+A
+C
+D
+E
+
+
+public class Myclass {
+  private final static int x = 10;
+   static {
+        x++;
+    }
+public static void main(String[] args) {
+  Myclass obj = new Myclass();
+    System.out.println(x);
+   }
+}
+
+Exception 
+
+#
+
+Hash
+
+hashcode() - method HashMap
+
+
+Keeping the below person details in a Map (person name as key and age as value) and then calculate the average age of the persons:-
+
+Amit    24
+
+Sumit   16
+
+Ram     18
+
+
+HashMap<String, Integer> map = new HashMap<String,Integer>()
+
+map.put(Amit, 24);
+map.put();
+map.put();
+int total =0;
+list<int> ages = map.en
+for(int age:){
+
+}
+
+
+git stash and git rebase 
+
+
+Example:
+
+|user|fname||||
+
+
+
+
+@DataProvide(name="fetchData")
+public Object[][] void getData(){
+	Object[][] date = readExcel.exceldata(path,sheetname);
+}
+
+
+<Suite>
+
+	<test name="test" paraller="classes">
+		<Classes>
+			<class name="smoke" enable="ture">
+			<class name="reg" enable="false">
+  		
+	
+
+</Suite>
+
+
+Inplicit
+
+driver.manage().timeout.implicite(Duration.ofSeconds(30))
+
+Explicit :
+
+wait.until(driver.findElement(By.xpath()))
+
+
+
+
+Action ac = new Action();
+
+ac.movesDown("")
+
+ac.DragDwrop(sru,des)
+
+
+
+
+
+Can you write locator to extract text john”?
+
+ 
+
+<html>
+               <body>
+                                 <div>
+                                                    <p>user profiles are below</p>
+                                 </div>
+ 
+                                 <div>
+                                                    <h1 value="Name">profile:</h1>
+                                                    <p>John</p>
+                                 </div>
+    </body>
+</html>
+
+ 
+
+
+//h1[@value='Name']/following::p
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
