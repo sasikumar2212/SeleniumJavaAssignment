@@ -1,0 +1,3 @@
+list of product name from instock - //div[@class='quantity']/preceding-sibling::div/a/span
+
+list of product name from loyalty bubble  - //div[@class='mytooltip'][@style='display: block;']/following::span[@class='productName']
